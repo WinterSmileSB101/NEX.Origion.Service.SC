@@ -1,2 +1,2 @@
-# eureka.instance.hostname: localhost
+eureka.instance.hostname: localhost
 port: 11000
