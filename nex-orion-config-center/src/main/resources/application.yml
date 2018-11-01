@@ -3,6 +3,14 @@ server:
 spring:
   application:
     name: NEX-Orion-Config-Center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WinterSmileSB101/NEX.Origion.Service.SC/
+          search-paths: Orion.Configs/configs-common/*
+      label: master
+
 eureka:
   client:
     service-url:

@@ -7,8 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="nex-orion-config-center" />
+        <module name="nex-orion-config-common-client" />
         <module name="nex-orion-server-center" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-config" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

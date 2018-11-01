@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: common-config
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:8762/
+server:
+  port: 8800
+

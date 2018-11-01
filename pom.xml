@@ -58,6 +58,7 @@
     <modules>
         <module>nex-orion-server-center</module>
         <module>nex-orion-config-center</module>
+        <module>nex-orion-config-common-client</module>
     </modules>
 
 </project>
